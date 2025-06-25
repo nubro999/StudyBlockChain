@@ -1,6 +1,4 @@
 
-## Obsidian + git + NotebookLM + 공식문서 등으로 학습
-
 # 1. **기초 개념 및 원리 이해**
 
 ### 1) 블록체인의 기본 구조와 작동 원리
@@ -71,3 +69,39 @@
 
 - DeFi(탈중앙화 금융), NFT, DAO, DID(분산 신원 인증)
 - 프라이버시 강화 기술(영지식증명, 믹싱 등)
+
+---
+
+# 5. **추천 학습 자료**
+
+|단계|자료명/강의명|형태|비고|
+|---|---|---|---|
+|기초|[모두의 블록체인](https://www.inflearn.com/course/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8)|온라인 강의|한글, 입문|
+|기초|[Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)|논문|원문|
+|응용|[이더리움 공식 문서](https://ethereum.org/ko/developers/docs/)|웹 문서|공식|
+|실습|[CryptoZombies](https://cryptozombies.io/)|실습 게임|스마트 컨트랙트|
+|실습|[Dapp University 유튜브](https://www.youtube.com/c/DappUniversity)|유튜브|실전 개발|
+|심화|[Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)|도서|영어, 심화|
+|심화|[Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)|도서|영어, 심화|
+
+---
+
+# 6. **예시 커리큘럼 플로우**
+
+1. **블록체인 기초 이론** (2주)
+2. **암호학 및 합의 원리** (1주)
+3. **비트코인/이더리움 구조 분석** (2주)
+4. **스마트 컨트랙트 프로그래밍** (3주)
+5. **DApp 개발 실습** (2주)
+6. **보안/확장성/최신 동향** (2주)
+7. **프로젝트/응용 사례 구현** (2주)
+
+---
+
+# 7. **학습 팁**
+
+- **실습과 이론을 병행**하세요.  
+    (직접 블록체인 노드를 설치하고, 스마트 컨트랙트를 배포해보세요.)
+- **공식 문서와 오픈소스 코드**를 적극적으로 참고하세요.
+- **커뮤니티(예: Stack Overflow, GitHub, 디스코드)에서 질문/토론에 참여해보세요.
+- **최신 트렌드**를 꾸준히 팔로우하세요(DeFi, NFT 등).
