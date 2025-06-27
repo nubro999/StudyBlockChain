@@ -63,3 +63,47 @@ DID 메소드: DID 생성, 해석, 관리 방식을 정의하는 표준(예: did
 
 W3C DID 표준  
 주요 오픈소스: Hyperledger Indy, Aries, Ursa, uPort, Sovrin, Microsoft ION, DIDKit 등
+
+1. 공개키 기반 암호(PKI, Public Key Infrastructure)  
+    DID의 소유권 증명, 인증, 메시지 서명 등에 사용됩니다.  
+    비대칭키 쌍(공개키/개인키)을 생성하고, DID 문서에 공개키를 등록합니다.  
+    대표 알고리즘으로는 ECDSA(Elliptic Curve Digital Signature Algorithm), EdDSA(Edwards-curve Digital Signature Algorithm, Ed25519 등), RSA(최근에는 덜 사용됨)가 있습니다.
+    
+2. 디지털 서명(Digital Signature)  
+    DID 소유자가 자신임을 증명하고, 데이터의 위변조 방지 및 무결성을 보장하는 데 사용됩니다.  
+    VC(Verifiable Credential) 서명, DID Document 업데이트 요청 서명 등에 활용됩니다.
+    
+3. 해시 함수(Hash Function)  
+    데이터의 무결성 검증과 프라이버시 보호(데이터를 직접 공개하지 않고 해시값만 공개)에 사용됩니다.  
+    SHA-256, SHA-3 등이 대표적인 해시 알고리즘입니다.
+    
+4. 암호화(Encryption)  
+    DID Document 내 일부 데이터의 암호화, 프라이버시 보호, 민감 정보 비공개 처리에 사용됩니다.  
+    대칭/비대칭 암호 모두 사용될 수 있습니다.
+    
+5. 키 교환(Key Exchange)  
+    DID 소유자 간 안전한 통신 채널을 생성하기 위해 사용됩니다.  
+    대표적으로 Diffie-Hellman(ECDH 등) 방식이 사용됩니다.
+    
+6. 제로 지식 증명(Zero-Knowledge Proof, ZKP)  
+    사용자가 자신의 속성을 증명하되, 실제 정보는 공개하지 않는 방식입니다.  
+    프라이버시 강화와 선택적 공개에 활용되며, Verifiable Credential의 selective disclosure(선택적 공개) 등에 사용됩니다.  
+    zk-SNARK, zk-STARK 등이 대표적인 예입니다.
+    
+7. DID Document 내 키 관리 메커니즘  
+    키 회전(Key Rotation): 키가 유출되거나 만료될 경우 새로운 키로 교체합니다.  
+    다중 서명(Multisig): 여러 키로 공동 관리할 수 있도록 합니다.
+    
+
+---
+
+요약 표
+
+암호학 매커니즘 : 주요 역할/사용처 : 대표 알고리즘  
+공개키 암호 : 소유권 증명, 인증, 서명 : ECDSA, EdDSA, RSA  
+디지털 서명 : 데이터 무결성, 인증 : ECDSA, EdDSA  
+해시 함수 : 무결성 검증, 프라이버시 보호 : SHA-256, SHA-3  
+암호화 : 데이터 보호, 프라이버시 : AES, RSA, ECC  
+키 교환 : 안전한 통신 채널 : ECDH  
+제로 지식 증명 : 정보 비공개 상태에서의 증명 : zk-SNARK, zk-STARK  
+키 관리 : 키 교체, 다중 서명 : 해당 없음
