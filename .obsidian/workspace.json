@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "지원서/업사이드아카데미.md",
+                "file": "지원서/0604_bay.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "업사이드아카데미"
+              "title": "0604_bay"
             }
           }
         ]
@@ -180,8 +180,8 @@
   },
   "active": "391abb6e34ab8efd",
   "lastOpenFiles": [
-    "지원서/0604_bay.md",
     "지원서/업사이드아카데미.md",
+    "지원서/0604_bay.md",
     "bitcoin/bitcoin.pdf",
     "블록체인보안/DID.md",
     "Pasted image 20250628165920.png",
