@@ -14,6 +14,8 @@
 - 해시 함수(SHA-256 등), 공개키/개인키 암호화, 디지털 서명
 - 머클 트리, 난이도 조정, 논스(nonce)
 
+[[What is Blockchain Security]]
+
 ### 3) 합의 알고리즘
 
 - Proof of Work (PoW), Proof of Stake (PoS), 기타 합의 방식(BFT, DPoS 등)

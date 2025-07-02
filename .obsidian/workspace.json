@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "92c8a8351f84602b",
+        "id": "7d4d6b82e80a063b",
         "type": "tabs",
         "children": [
           {
-            "id": "391abb6e34ab8efd",
+            "id": "630795c946802774",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "지원서/0604_bay.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "0604_bay"
+              "title": "New tab"
             }
           }
         ]
@@ -167,7 +163,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -175,13 +170,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "391abb6e34ab8efd",
+  "active": "7c8145bac59816d6",
   "lastOpenFiles": [
-    "지원서/업사이드아카데미.md",
     "지원서/0604_bay.md",
+    "99.Attachment",
+    "90.Templetes",
+    "10.DailyNote",
+    "00.inbox",
+    "지원서/업사이드아카데미.md",
     "bitcoin/bitcoin.pdf",
     "블록체인보안/DID.md",
     "Pasted image 20250628165920.png",

@@ -107,3 +107,6 @@ W3C DID 표준
 키 교환 : 안전한 통신 채널 : ECDH  
 제로 지식 증명 : 정보 비공개 상태에서의 증명 : zk-SNARK, zk-STARK  
 키 관리 : 키 교체, 다중 서명 : 해당 없음
+
+[[What is Blockchain Security]]
+
