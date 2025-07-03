@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7d4d6b82e80a063b",
+        "id": "f74db65cc99dde30",
         "type": "tabs",
         "children": [
           {
-            "id": "630795c946802774",
+            "id": "611bbce48eb4b5e1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -174,8 +174,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c8145bac59816d6",
+  "active": "611bbce48eb4b5e1",
   "lastOpenFiles": [
+    "Untitled.md",
     "지원서/0604_bay.md",
     "99.Attachment",
     "90.Templetes",
