@@ -27,12 +27,12 @@
 ### 1) 비트코인
 
 - 비트코인 트랜잭션 구조
-- UTXO 모델
-- 채굴 및 보상 시스템
+- UTXO 모델 
+- 채굴 및 보상 시스템 [[가장긴체인]]
 
 ### 2) 이더리움
 
-- 스마트 컨트랙트, EVM(Ethereum Virtual Machine)
+- 스마트 컨트랙트, EVM(Ethereum Virtual Machine) [[What is EVM]] [[SmartContract]]
 - 계정 모델(Account Model)
 - Solidity(스마트 컨트랙트 언어) 기초
 
