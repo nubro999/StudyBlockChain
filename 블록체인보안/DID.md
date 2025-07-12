@@ -3,6 +3,15 @@
 
 DID(Decentralized Identifier)는 중앙기관(정부, 기업 등)에 의존하지 않고, 사용자가 자신의 신원 정보를 직접 생성하고 관리할 수 있도록 하는 분산 신원 식별자입니다. 즉, 내 신원은 내가 소유하고, 내가 통제한다는 자기주권 신원(Self-Sovereign Identity, SSI)의 핵심 기술입니다.
 
+![[Pasted image 20250710055340.png]]
+![[Pasted image 20250709191637.png]]
+
+RWA (real world asset)
+
+블록체인에 올라와 있는 실물 자산 > 토큰화 > nft발행
+funzable token / token이란 - 장부
+
+
 2. DID의 구조
 
 DID의 형식  
@@ -93,7 +102,12 @@ W3C DID 표준
 7. DID Document 내 키 관리 메커니즘  
     키 회전(Key Rotation): 키가 유출되거나 만료될 경우 새로운 키로 교체합니다.  
     다중 서명(Multisig): 여러 키로 공동 관리할 수 있도록 합니다.
-    
+
+|       |      |               |       |                        |
+| ----- | ---- | ------------- | ----- | ---------------------- |
+| ECDSA | 높음   | 짧음(256bit 등)  | 빠름    | 비트코인, 이더리움 등 블록체인      |
+| EdDSA | 더 높음 | 더 짧음(Ed25519) | 매우 빠름 | DID, 최신 블록체인, SSH, GPG |
+|       |      |               |       |                        |
 
 ---
 
@@ -110,3 +124,10 @@ W3C DID 표준
 
 [[What is Blockchain Security]]
 
+## DID 실제 적용사례
+- **Microsoft ION**: DID 기반 분산 신원 네트워크(비트코인 위)
+- **유니세프 Giga**: 학교 인터넷 연결 DID 인증
+- **삼성, SKT, LGU+**: PASS 앱 기반 DID 신분증
+- **유럽연합 eIDAS**: 유럽 디지털 신원 프레임워크
+- **메타마스크, Unstoppable Domains**: Web3 DID 로그인
+    - [[PASS원리]]
