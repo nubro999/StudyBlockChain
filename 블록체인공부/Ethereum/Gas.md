@@ -55,3 +55,9 @@ Gas란?
 
 - 최근에는 **EIP-1559**로 인해 `gasPrice` 대신 `maxFeePerGas`, `maxPriorityFeePerGas`를 쓰는 경우도 많습니다.
 - 하지만 여전히 `gas`와 `gasPrice` 개념은 이더리움 트랜잭션의 기본입니다.
+
+![[Pasted image 20250718203222.png]]
+
+![[Pasted image 20250718203254.png]]
+
+![[Pasted image 20250718203328.png]]
